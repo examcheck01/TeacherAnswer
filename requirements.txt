@@ -2,5 +2,7 @@ Flask==2.3.3
 flask-cors==4.0.0
 requests==2.31.0
 waitress==2.1.2
+numpy==1.26.4
 pandas==2.2.2
 roboflow==1.1.66
+
