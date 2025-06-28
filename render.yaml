@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: teacher-answer-service   # เปลี่ยนได้ตามชื่อที่ตั้งบน Render
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python TeacherAnswer.py"
+    pythonVersion: 3.12.3
