@@ -5,26 +5,3 @@ services:
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python TeacherAnswer.py"
 
-  - type: web
-    name: student-answer-service
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python StudentAnswer.py"
-
-  - type: web
-    name: score-server
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python Score_server.py"
-
-  - type: web
-    name: get-scores-service
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python Get_scores.py"
-
-  - type: web
-    name: router-app
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python RouterApp.py"
