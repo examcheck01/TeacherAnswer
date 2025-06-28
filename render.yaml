@@ -4,32 +4,27 @@ services:
     env: python
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python TeacherAnswer.py"
-    pythonVersion: 3.12.3
 
   - type: web
     name: student-answer-service
     env: python
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python StudentAnswer.py"
-    pythonVersion: 3.12.3
 
   - type: web
     name: score-server
     env: python
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python Score_server.py"
-    pythonVersion: 3.12.3
 
   - type: web
     name: get-scores-service
     env: python
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python Get_scores.py"
-    pythonVersion: 3.12.3
 
   - type: web
     name: router-app
     env: python
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python RouterApp.py"
-    pythonVersion: 3.12.3
